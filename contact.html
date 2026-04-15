@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Shailee Foods</title>
+  <meta name="description" content="Get in touch with Shailee Foods in Vadodara for vacuum packing and food dehydration enquiries. Call +91 9374639925 or visit us at Old Padra Road." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">🌿 Shailee<span>Foods</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vacuum-packing.html">Vacuum Packing</a></li>
+        <li><a href="dehydrating.html">Dehydrating Foods</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> › <span>Contact</span>
+    </div>
+    <h1>📞 Get In Touch</h1>
+    <p>Have a question or need a quote? We'd love to hear from you. Reach out through any of the channels below and we'll respond promptly.</p>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section>
+    <div class="section-inner">
+      <div class="contact-grid">
+
+        <!-- Left: Info -->
+        <div class="contact-info-card">
+          <h2>Contact Information</h2>
+          <p>Feel free to call, visit, or drop us a message. We're happy to help with all your food processing needs.</p>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-text">
+              <h4>Phone</h4>
+              <p><a href="tel:+919374639925">+91 93746 39925</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <h4>Address</h4>
+              <p>
+                A-6 Sukruti Nagar,<br />
+                Diwalipura, Old Padra Road,<br />
+                Vadodara – 390007,<br />
+                Gujarat, India
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🕐</div>
+            <div class="info-text">
+              <h4>Business Hours</h4>
+              <p>
+                Monday – Saturday: 9:00 AM – 6:00 PM<br />
+                Sunday: Closed
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🛠️</div>
+            <div class="info-text">
+              <h4>Services</h4>
+              <p>
+                <a href="vacuum-packing.html">Vacuum Packing</a><br />
+                <a href="dehydrating.html">Food Dehydration</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-card">
+          <h2>Send Us a Message</h2>
+          <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="e.g. Rahul" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="e.g. Shah" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">-- Select a service --</option>
+                <option value="vacuum-packing">Vacuum Packing</option>
+                <option value="dehydrating">Dehydrating Food Products</option>
+                <option value="both">Both Services</option>
+                <option value="other">Other / General Enquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your requirements — product type, quantity, frequency, etc." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Message →</button>
+
+            <p id="formSuccess" style="display:none;margin-top:16px;color:var(--primary);font-weight:600;text-align:center;">
+              ✅ Thank you! Your message has been sent. We'll be in touch soon.
+            </p>
+            <p id="formError" style="display:none;margin-top:16px;color:#c62828;font-weight:600;text-align:center;">
+              ⚠️ Please fill in all required fields before submitting.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="map-section">
+    <div class="section-inner">
+      <div class="section-label">Find Us</div>
+      <h2 class="section-title" style="margin-bottom:28px;">Our Location</h2>
+      <div class="map-wrap">
+        <iframe
+          title="Shailee Foods Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7254860165727!2d73.16155!3d22.29456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc5873b2c3a4f%3A0x1!2sDiwalipura%2C%20Old%20Padra%20Road%2C%20Vadodara%2C%20Gujarat%20390007!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+          width="100%"
+          height="420"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>🌿 Shailee<span>Foods</span></h3>
+          <p>Professional vacuum packing and food dehydration services based in Vadodara, Gujarat.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vacuum-packing.html">Vacuum Packing</a></li>
+            <li><a href="dehydrating.html">Dehydrating Foods</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <address>
+            <a href="tel:+919374639925">+91 93746 39925</a><br />
+            A-6 Sukruti Nagar,<br />
+            Diwalipura, Old Padra Road,<br />
+            Vadodara – 390007
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Shailee Foods. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    // Contact form validation (client-side)
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const firstName = document.getElementById('firstName').value.trim();
+      const lastName  = document.getElementById('lastName').value.trim();
+      const phone     = document.getElementById('phone').value.trim();
+      const message   = document.getElementById('message').value.trim();
+
+      const success = document.getElementById('formSuccess');
+      const error   = document.getElementById('formError');
+
+      if (!firstName || !lastName || !phone || !message) {
+        error.style.display   = 'block';
+        success.style.display = 'none';
+        return;
+      }
+
+      // Hide error, show success
+      error.style.display   = 'none';
+      success.style.display = 'block';
+      this.reset();
+    });
+  </script>
+</body>
+</html>

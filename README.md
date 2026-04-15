@@ -1,6 +1,6 @@
-# Shailee Foods Website
+# DeHyd Naturals Website
 
-A clean, responsive static website for **Shailee Foods** — a food processing business in Vadodara specialising in vacuum packing and food dehydration.
+A clean, responsive static website for **DeHyd Naturals** — a food processing business in Vadodara specialising in vacuum packing and food dehydration.
 
 ## Pages
 
@@ -86,7 +86,7 @@ GitHub Pages will automatically redeploy.
 
 ## Customisation Tips
 
-- **Business name**: Search and replace `Shailee Foods` / `ShaileeFoods` across all files to change the brand name.
+- **Business name**: Search and replace `DeHyd Naturals` / `ShaileeFoods` across all files to change the brand name.
 - **Phone number**: Currently `+91 93746 39925` — update in `index.html`, `vacuum-packing.html`, `dehydrating.html`, `contact.html`, and `styles.css` footer sections.
 - **Address**: Update in all four HTML files in the footer `<address>` block.
 - **Colours**: Edit the CSS variables at the top of `styles.css` (`:root` block).
